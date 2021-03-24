@@ -1,27 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .App {
   text-align: center;
+  background-color: #f7f7f8;
+  padding-top: 50px;
+  font-family: 'Poppins',"Sans Serif";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main_list{
+  padding-top: 40px;
+}
+
+.header_btn{
+  width: 80%;
+  background-color: #041E33;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 7px;
+  border: none;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.wrapper{
+  padding-top: 20px;
+  text-align: center;
+  color: #797979;
+  display: flex;
+  justify-content: center;
+}
+
+.poster{
+  width: 75%;
+  height: 200px;
+  padding: 20px;
+  padding-top: 30px;
+  background-color: #ffffff;
+  border-radius: 7px;
+}
+
+.poster_title{
+  font-weight:600;
+  font-size: 1.0em;
+  text-align: left;
+}
+
+.days{
+  text-align: right;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.vender{
+  padding-top: 8px;
+  color: #ff7648;
+  text-align: left;
+  font-weight:600;
+}
+
+.description{
+  padding-top: 8px;
+  text-align: left;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.foot{
+  padding-top: 15px;
+  text-align: left;
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+
+span{
+  padding-left: 8px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
